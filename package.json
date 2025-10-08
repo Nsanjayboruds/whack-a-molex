@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js app.test.js",
     "test:functions": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js app.functions.test.js",
